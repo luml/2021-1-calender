@@ -1,0 +1,31 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+h1 {
+    margin-left: 40%;
+}
+.first-day {
+    grid-column-start: 6;
+}
+
+.calender-wrapper {
+    width: 60%;
+}
+
+.calender {
+    list-style: none;
+}
+.calender li {
+    padding: 10px;
+    text-align: center;
+}
+.calender .weekday {
+    background: lightblue;
+}
+.first-day, .last-day {
+    background: lightyellow;
+    border-radius: 60%;
+    border: 1px solid rebeccapurple;
+    color: rebeccapurple;
+}

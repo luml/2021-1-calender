@@ -10,7 +10,14 @@ h1 {
 }
 
 .calender-wrapper {
-    width: 60%;
+    /* background: red; */
+    background: var(--seasonal-hl);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    border-radius: 100% 1% 81% 63% / 3% 24% 75% 70%;
 }
 
 .calender {
